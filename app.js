@@ -49,4 +49,39 @@ alert(nombreUsuario);
 - Ejercicio 11: Crea una confirmación con confirm que pregunte al usuario si le gusta JavaScript. Guarda la respuesta en una variable y muestra en consola un mensaje acorde a la respuesta.
  */
 
-let respuesta
+let respuesta = confirm("Hey usuario, te gusta javascript?");
+
+if (respuesta) {
+  console.log("Genial! si te gusta podras mejorar muy rapido! sigue asi");
+}else{
+  console.log("oh... que mal... pero bueno, no te desanimes, quizas te pueda gustar en el futuro");
+};
+
+/*  Sección 4: Uso de console para Depuración */
+
+/* - Ejercicio 9: Escribe un mensaje de advertencia usando console.warn con el texto "Esto es solo una práctica". */
+
+console.warn("Esto es solo una practica");
+
+
+/* - Ejercicio 10: Genera un mensaje de error utilizando console.error para simular un fallo al intentar ejecutar una operación.
+ */
+
+
+console.error("fallo al intentar ejecutar ");
+
+
+/* - Ejercicio 11: Crea una tabla en la consola a partir de un array con los números del 1 al 5 utilizando console.table. */
+
+//que? 😨
+
+/* - Ejercicio 12: Crea un nuevo archivo llamado app.js. Mueve todas las etiquetas script que has escrito hasta ahora a este nuevo archivo. */
+
+//Done
+
+/* - Ejercicio 13: Enlaza el archivo app.js a tu index.html utilizando la etiqueta script al final del <body> */
+
+//Done
+
+
+
