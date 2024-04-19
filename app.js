@@ -73,7 +73,15 @@ console.error("fallo al intentar ejecutar ");
 
 /* - Ejercicio 11: Crea una tabla en la consola a partir de un array con los números del 1 al 5 utilizando console.table. */
 
-//que? 😨
+const numeros = [1, 2, 3, 4, 5];
+const tabla = [];
+
+numeros.forEach(numero => {
+    tabla.push({ Numero: numero });
+});
+
+console.table(tabla);
+
 
 /* - Ejercicio 12: Crea un nuevo archivo llamado app.js. Mueve todas las etiquetas script que has escrito hasta ahora a este nuevo archivo. */
 
